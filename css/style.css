@@ -1,0 +1,159 @@
+p{
+	font: 13.4px "Open Sans", arial, verdana, sans-serif ;
+}
+
+
+/*WRAPPER*/
+.wrapper{
+	width:1061px;
+	height: 950px;
+	margin:0 auto;
+	box-shadow:0px 0px 18px #dbdbdb;
+	
+}
+
+
+/*HEADER*/
+.header{
+	margin:0px 48px 50px 48px;
+	padding-top: 52px;
+}
+#menu{
+	width: 968px
+}
+#menu ul{
+	overflow: hidden;
+	background-image: url("../img/menu-panel.png");
+	background-repeat:repeat-x;
+	margin-top: 40px;	
+}
+
+#menu li{
+	list-style:none;
+	float: left;
+}
+
+#menu li a {
+	font: 15px "Open Sans", arial, verdana, sans-serif; 
+	text-decoration: none;
+	text-shadow:1px 1px 2px black; /*сдвиг по х, сдвиг по у, радиус*/
+	color:white;
+	line-height: 40px; /*высота линии текста*/
+	display: block;
+	padding: 0px 23px;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	}
+
+#menu li a:hover {
+	font-weight: normal;
+	background: url("../img/hover.png") repeat-x;
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+
+}
+
+
+/*SIDEBAR*/
+
+.sidebar {
+	width: 240px;
+	line-height: 40px;
+	float: left;
+	margin: 0px 0px 402px 48px;
+}
+.sidebar ul{
+	padding-left: 0px; /*почему?*/
+	margin: 0px;
+	list-style:none;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.sidebar li{
+	border:1px solid #dbdbdb;
+	border-bottom: 0.5px;
+}
+
+.sidebar a{
+	color: #656363;
+	font: 13.4px "Open Sans", arial, verdana, sans-serif;
+	text-decoration: none;
+	padding-left: 25px;
+}
+
+.sidebar li:hover {
+	padding-left: 35px;
+	background: #f9f9f9;
+}
+
+.sidebar li:hover a{
+	color: black;
+}
+/*table tr:hover{
+	background: #f9f9f9;	
+}*/
+.sidebar table{
+	width: 240px;
+	border:1px solid #dbdbdb;
+
+}
+
+
+
+/*CONTAINER*/
+.container{
+	width:677px;
+	float: left;
+	margin: 0px 50px 0px 46px;
+}
+
+.image-box{
+	margin-bottom: 40px;
+}
+
+
+/*FOOTER*/
+.footer{
+	clear: both;
+	margin:0 auto;
+	background-color: #e1e1e1;
+	line-height: 40px;
+	width: 963px;
+}
+
+.footer a{
+	text-decoration: none;
+	color:#2c2c2c;
+
+}
+#links ul{
+	margin-right: 27px;
+	overflow: hidden;/*обяъснить что делает, что такое отображает область внутри элемента*/
+}
+#links a{
+	padding: 0px 23px;
+}
+
+#links li{
+	list-style:none;
+	padding-right:2px; 
+	display: inline;
+}
+
+#links li a:hover{
+	text-decoration: underline;
+}
+ .right {
+ 	float: right;
+ 	background-color: #e1e1e1;
+	line-height: 40px;
+}
+ .left{
+ 	float: left;
+ 	background-color: #e1e1e1;
+	line-height: 40px;
+}
+
+
+
+
